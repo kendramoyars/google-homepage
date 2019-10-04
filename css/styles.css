@@ -1,3 +1,4 @@
+/* RESETS */
 *,
 *::after,
 *::before {
@@ -13,3 +14,152 @@ html {
 body {
   box-sizing: border-box;
 }
+
+/* MAIN STYLES */
+
+.main-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+}
+
+#logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 300px;
+  height: auto;
+}
+
+#searchInput {
+  width: 50rem;
+  border: 1px solid #d4d4d4;
+  padding: 1rem 4rem;
+  border-radius: 25px;
+  outline: none;
+  font-size: 1.5rem;
+  
+}
+
+#searchInput:hover {
+  box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+  border-color: rgba(223,225,229,0);
+}
+
+.btn{
+  margin-top: 2rem;
+  padding: 0 1.6rem;
+  border: 1px solid #f2f2f2;
+  font-size: 1.35rem;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  height: 3.6rem;
+  color: #5F6368;
+}
+
+.btn:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
+
+.search-bar {
+  margin-top: 2.5rem;
+}
+
+#btnSearch {
+  margin-right: 1rem;
+}
+
+.top-nav {
+ overflow: auto;
+  
+}
+
+.container {
+  overflow: auto;
+  
+}
+
+#leftTopNav {
+  float: left;
+  display: block;
+  list-style: none;
+  margin-left: 10px;
+}
+
+#rightTopNav {
+  float: right;
+  display: block;
+  list-style: none;
+  margin-right: 20px;
+}
+
+li {
+  float: left;
+  margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  opacity: 0.75;
+  color: #000;
+  margin-top: 23px;
+}
+
+#rightTopNav li:last-child {
+  opacity: 1;
+  display: block;
+  margin-top: 15px;
+}
+
+li:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, .75);
+  cursor: pointer;
+}
+
+#rightTopNav li:last-child:hover {
+  border: none;
+}
+
+#userIcon {
+  width: 40px;
+  
+}
+
+.bottom-nav{
+  overflow: auto;
+  background-color: #f2f2f2;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 15px;
+  border-top: 1px solid #e4e4e4;
+}
+
+.bottom-nav ul li {
+  margin-top: 0;
+  padding-top: 15px;
+}
+
+#leftBottomNav {
+  float: left;
+  list-style: none;
+  margin-left: 10px;
+}
+
+#rightBottomNav {
+  float: right;
+  list-style: none;
+  margin-right: 20px;
+}
+
+#search {
+  position: fixed;
+  top: 63%;
+  left: 1.6rem;
+  color: #9AA0A6;
+  font-size: 13px;
+}
+

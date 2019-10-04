@@ -4,9 +4,50 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/d7f1a4cdc6.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
   <title>Google</title>
 </head>
 <body>
+  <div class="top-nav">
+    <div class="container">
+      <ul id="leftTopNav">
+        <li>About</li>
+        <li>Store</li>
+      </ul>
+      <ul id="rightTopNav">
+        <li>Gmail</li>
+        <li>Images</li>
+        <li><i class="fas fa-th"></i></li>
+        <li><img id="userIcon" src="https://lh3.googleusercontent.com/a-/AAuE7mAKUDY49oiCfX7VOgJcmFFQp1Nn2ValKoGq-fuY7Q=s192-cc" alt="User Icon"></li>
+      </ul>
+    </div>
+  </div>
+
+  <!--Google Logo and Search Bar-->
+  <div class="main-content">
+    <img id="logo"src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo">
+    <i id="search" class="fas fa-search"></i>
+    <form class="search-bar" action="#">
+      <input id="searchInput" type="search" name="q"><br>
+      <input class="btn" id="btnSearch" type="submit" value="Google Search">
+      <input class="btn" id="btnLucky" type="submit" value="I'm Feeling Lucky">
+    </form>
+  </div>
   
+  <div class="bottom-nav">
+      <div class="container">
+          <ul id="leftBottomNav">
+            <li>Advertising</li>
+            <li>Business</li>
+            <li>How Search Works</li>
+          </ul>
+          <ul id="rightBottomNav">
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Settings</li>
+          </ul>
+        </div>
+  </div>
 </body>
 </html>
